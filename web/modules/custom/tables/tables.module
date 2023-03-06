@@ -1,0 +1,41 @@
+<?php
+
+function tables_theme($existing, $type, $theme, $path) {
+    return [
+        ' block__views_block__test_block_1'=>[
+            'template'=>' block--views-block--test-block-1',
+        ],
+        'page__test_entity'=>[
+            'template'=>'page--test-entity'
+        ]
+        ];}
+/**
+ * Implements hook_view_data().
+ */
+function tables_views_pre_render($view) {
+
+
+   // Check if the view being rendered is of type 'my_view'.
+    if ($view->id() == 'test_entity') {
+    // Select all rows from the 'my_table' table.
+  $query = \Drupal::database()->select('member', 't');
+  $query->fields('t', array('id', 'nom', 'prenom','role','decide'));
+  $result = $query->execute();
+
+  // Loop through the results and process each row.
+  foreach ($result as $row) {
+    // Do something with the row data.
+    $id = $row->id;
+    $nom = $row->nom;
+    $prenom = $row->prenom;
+    $role = $row->role;
+    $decide = $row->decide;
+
+  }
+ // dump($row);
+ return $row;
+    }
+  }
+
+
+?>
