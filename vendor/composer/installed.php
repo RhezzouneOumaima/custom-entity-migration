@@ -1,9 +1,9 @@
 <?php return array(
     'root' => array(
         'name' => 'drupal/recommended-project',
-        'pretty_version' => '1.0.0+no-version-set',
-        'version' => '1.0.0.0',
-        'reference' => NULL,
+        'pretty_version' => 'dev-main',
+        'version' => 'dev-main',
+        'reference' => 'a9a5027abd709bdbc39087db24ccd8dffe444b51',
         'type' => 'project',
         'install_path' => __DIR__ . '/../../',
         'aliases' => array(),
@@ -785,9 +785,9 @@
             ),
         ),
         'drupal/recommended-project' => array(
-            'pretty_version' => '1.0.0+no-version-set',
-            'version' => '1.0.0.0',
-            'reference' => NULL,
+            'pretty_version' => 'dev-main',
+            'version' => 'dev-main',
+            'reference' => 'a9a5027abd709bdbc39087db24ccd8dffe444b51',
             'type' => 'project',
             'install_path' => __DIR__ . '/../../',
             'aliases' => array(),
@@ -1262,6 +1262,15 @@
             'aliases' => array(),
             'dev_requirement' => false,
         ),
+        'symfony/config' => array(
+            'pretty_version' => 'v4.4.44',
+            'version' => '4.4.44.0',
+            'reference' => 'ed42f8f9da528d2c6cae36fe1f380b0c1d8f0658',
+            'type' => 'library',
+            'install_path' => __DIR__ . '/../symfony/config',
+            'aliases' => array(),
+            'dev_requirement' => true,
+        ),
         'symfony/console' => array(
             'pretty_version' => 'v4.4.9',
             'version' => '4.4.9.0',
@@ -1439,6 +1448,15 @@
             'aliases' => array(),
             'dev_requirement' => false,
         ),
+        'symfony/polyfill-php81' => array(
+            'pretty_version' => 'v1.27.0',
+            'version' => '1.27.0.0',
+            'reference' => '707403074c8ea6e2edaf8794b0157a0bfa52157a',
+            'type' => 'library',
+            'install_path' => __DIR__ . '/../symfony/polyfill-php81',
+            'aliases' => array(),
+            'dev_requirement' => true,
+        ),
         'symfony/process' => array(
             'pretty_version' => 'v4.4.9',
             'version' => '4.4.9.0',
@@ -1531,6 +1549,15 @@
             'install_path' => __DIR__ . '/../symfony/var-dumper',
             'aliases' => array(),
             'dev_requirement' => false,
+        ),
+        'symfony/web-server-bundle' => array(
+            'pretty_version' => 'v4.4.44',
+            'version' => '4.4.44.0',
+            'reference' => 'b58e4ab115c6f6879f6e0de35c08b2dfd9e24c3b',
+            'type' => 'symfony-bundle',
+            'install_path' => __DIR__ . '/../symfony/web-server-bundle',
+            'aliases' => array(),
+            'dev_requirement' => true,
         ),
         'symfony/yaml' => array(
             'pretty_version' => 'v4.4.9',

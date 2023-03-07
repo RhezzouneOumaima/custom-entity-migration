@@ -1,0 +1,11 @@
+myone.type_add:
+  route_name: entity.myone_type.add_form
+  title: 'Add myone type'
+  appears_on:
+    - entity.myone_type.collection
+
+myone.add_page:
+  route_name: entity.myone.add_page
+  title: 'Add myone'
+  appears_on:
+    - entity.myone.collection

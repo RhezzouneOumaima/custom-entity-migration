@@ -94,5 +94,8 @@
                 "      composer remove drupal/core-project-message"
             ]
         }
+    },
+    "require-dev": {
+        "symfony/web-server-bundle": "^4.4"
     }
 }

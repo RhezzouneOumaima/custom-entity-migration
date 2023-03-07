@@ -1,0 +1,7 @@
+entity.myentity.settings:
+  path: 'admin/structure/myentity'
+  defaults:
+    _form: '\Drupal\myentity\Form\MyentitySettingsForm'
+    _title: 'myentity'
+  requirements:
+    _permission: 'administer myentity'

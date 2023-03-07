@@ -10,8 +10,8 @@ class ComposerStaticInit9fc0827a6d5728d0ef2a56a84cbd704a
         '0e6d7bf4a5811bfa5cf40c5ccd6fae6a' => __DIR__ . '/..' . '/symfony/polyfill-mbstring/bootstrap.php',
         'a4a119a56e50fbb293281d9a48007e0e' => __DIR__ . '/..' . '/symfony/polyfill-php80/bootstrap.php',
         '25072dd6e2470089de65ae7bf11d3109' => __DIR__ . '/..' . '/symfony/polyfill-php72/bootstrap.php',
-        'f598d06aa772fa33d905e87be6398fb1' => __DIR__ . '/..' . '/symfony/polyfill-intl-idn/bootstrap.php',
         '320cde22f66dd4f5d3fd621d3e88b98f' => __DIR__ . '/..' . '/symfony/polyfill-ctype/bootstrap.php',
+        'f598d06aa772fa33d905e87be6398fb1' => __DIR__ . '/..' . '/symfony/polyfill-intl-idn/bootstrap.php',
         '0d59ee240a4cd96ddbb4ff164fccea4d' => __DIR__ . '/..' . '/symfony/polyfill-php73/bootstrap.php',
         '667aeda72477189d0494fecd327c3641' => __DIR__ . '/..' . '/symfony/var-dumper/Resources/functions/dump.php',
         '7e9bd612cc444b3eed788ebbe46263a0' => __DIR__ . '/..' . '/laminas/laminas-zendframework-bridge/src/autoload.php',
@@ -39,6 +39,7 @@ class ComposerStaticInit9fc0827a6d5728d0ef2a56a84cbd704a
         'def43f6c87e4f8dfd0c9e1b1bab14fe8' => __DIR__ . '/..' . '/symfony/polyfill-iconv/bootstrap.php',
         '952683d815ff0a7bf322b93c0be7e4e4' => __DIR__ . '/..' . '/chi-teck/drupal-code-generator/src/bootstrap.php',
         '801c31d8ed748cfa537fa45402288c95' => __DIR__ . '/..' . '/psy/psysh/src/functions.php',
+        '23c18046f52bef3eea034657bafda50f' => __DIR__ . '/..' . '/symfony/polyfill-php81/bootstrap.php',
         '9e4824c5afbdc1482b6025ce3d4dfde8' => __DIR__ . '/..' . '/league/csv/src/functions_include.php',
     );
 
@@ -55,6 +56,7 @@ class ComposerStaticInit9fc0827a6d5728d0ef2a56a84cbd704a
         ),
         'S' => 
         array (
+            'Symfony\\Polyfill\\Php81\\' => 23,
             'Symfony\\Polyfill\\Php80\\' => 23,
             'Symfony\\Polyfill\\Php73\\' => 23,
             'Symfony\\Polyfill\\Php72\\' => 23,
@@ -82,7 +84,9 @@ class ComposerStaticInit9fc0827a6d5728d0ef2a56a84cbd704a
             'Symfony\\Component\\DependencyInjection\\' => 38,
             'Symfony\\Component\\Debug\\' => 24,
             'Symfony\\Component\\Console\\' => 26,
+            'Symfony\\Component\\Config\\' => 25,
             'Symfony\\Cmf\\Component\\Routing\\' => 30,
+            'Symfony\\Bundle\\WebServerBundle\\' => 31,
             'Symfony\\Bridge\\PsrHttpMessage\\' => 30,
             'SelfUpdate\\' => 11,
         ),
@@ -176,6 +180,10 @@ class ComposerStaticInit9fc0827a6d5728d0ef2a56a84cbd704a
         'TYPO3\\PharStreamWrapper\\' => 
         array (
             0 => __DIR__ . '/..' . '/typo3/phar-stream-wrapper/src',
+        ),
+        'Symfony\\Polyfill\\Php81\\' => 
+        array (
+            0 => __DIR__ . '/..' . '/symfony/polyfill-php81',
         ),
         'Symfony\\Polyfill\\Php80\\' => 
         array (
@@ -285,9 +293,17 @@ class ComposerStaticInit9fc0827a6d5728d0ef2a56a84cbd704a
         array (
             0 => __DIR__ . '/..' . '/symfony/console',
         ),
+        'Symfony\\Component\\Config\\' => 
+        array (
+            0 => __DIR__ . '/..' . '/symfony/config',
+        ),
         'Symfony\\Cmf\\Component\\Routing\\' => 
         array (
             0 => __DIR__ . '/..' . '/symfony-cmf/routing/src',
+        ),
+        'Symfony\\Bundle\\WebServerBundle\\' => 
+        array (
+            0 => __DIR__ . '/..' . '/symfony/web-server-bundle',
         ),
         'Symfony\\Bridge\\PsrHttpMessage\\' => 
         array (
@@ -540,6 +556,7 @@ class ComposerStaticInit9fc0827a6d5728d0ef2a56a84cbd704a
         'Drupal\\Core\\Site\\Settings' => __DIR__ . '/../..' . '/web/core/lib/Drupal/Core/Site/Settings.php',
         'JsonException' => __DIR__ . '/..' . '/symfony/polyfill-php73/Resources/stubs/JsonException.php',
         'PEAR_Exception' => __DIR__ . '/..' . '/pear/pear_exception/PEAR/Exception.php',
+        'ReturnTypeWillChange' => __DIR__ . '/..' . '/symfony/polyfill-php81/Resources/stubs/ReturnTypeWillChange.php',
         'Stringable' => __DIR__ . '/..' . '/symfony/polyfill-php80/Resources/stubs/Stringable.php',
         'ValueError' => __DIR__ . '/..' . '/symfony/polyfill-php80/Resources/stubs/ValueError.php',
     );

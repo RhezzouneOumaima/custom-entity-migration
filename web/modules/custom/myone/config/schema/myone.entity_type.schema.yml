@@ -1,0 +1,15 @@
+myone.myone_type.*:
+  type: config_entity
+  label: 'myone type config'
+  mapping:
+    id:
+      type: string
+      label: 'ID'
+    label:
+      type: label
+      label: 'Label'
+    name:
+      type: string
+      label: 'name'
+    uuid:
+      type: string

@@ -1,0 +1,7 @@
+entity.myone_type.collection:
+  title: 'myone types'
+  parent: system.admin_structure
+  description: 'Manage and CRUD actions on myone type.'
+  route_name: entity.myone_type.collection
+
+

@@ -1,0 +1,26 @@
+entity.myone.view:
+  title: View
+  route_name: entity.myone.canonical
+  base_route: entity.myone.canonical
+entity.myone.edit_form:
+  title: Edit
+  route_name: entity.myone.edit_form
+  base_route: entity.myone.canonical
+entity.myone.delete_form:
+  title: Delete
+  route_name: entity.myone.delete_form
+  base_route: entity.myone.canonical
+  weight: 10
+entity.myone.collection:
+  title: myone
+  route_name: entity.myone.collection
+  base_route: system.admin_content
+  weight: 10
+entity.myone_type.edit_form:
+  title: Edit
+  route_name: entity.myone_type.edit_form
+  base_route: entity.myone_type.edit_form
+entity.myone_type.collection:
+  title: List
+  route_name: entity.myone_type.collection
+  base_route: entity.myone_type.collection

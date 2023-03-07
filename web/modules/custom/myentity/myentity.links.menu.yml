@@ -1,0 +1,10 @@
+entity.myentity.settings:
+  title: myentity
+  description: Configure a myentity entity type
+  route_name:  entity.myentity.settings
+  parent: system.admin_structure
+entity.myentity.collection:
+  title: myentities
+  description: List of myentities
+  route_name: entity.myentity.collection
+  parent: system.admin_content

@@ -35,6 +35,7 @@ return array(
     'Drupal\\Core\\Site\\Settings' => $baseDir . '/web/core/lib/Drupal/Core/Site/Settings.php',
     'JsonException' => $vendorDir . '/symfony/polyfill-php73/Resources/stubs/JsonException.php',
     'PEAR_Exception' => $vendorDir . '/pear/pear_exception/PEAR/Exception.php',
+    'ReturnTypeWillChange' => $vendorDir . '/symfony/polyfill-php81/Resources/stubs/ReturnTypeWillChange.php',
     'Stringable' => $vendorDir . '/symfony/polyfill-php80/Resources/stubs/Stringable.php',
     'ValueError' => $vendorDir . '/symfony/polyfill-php80/Resources/stubs/ValueError.php',
 );

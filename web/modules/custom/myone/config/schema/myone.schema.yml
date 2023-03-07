@@ -1,0 +1,38 @@
+# Field instance.
+field.field_settings.myone_namee:
+  type: mapping
+  label: Example field settings
+  mapping:
+    bar:
+      type: string
+      label: Bar
+# Default value.
+field.value.myone_namee:
+  type: mapping
+  label: Default value
+  mapping:
+    ex1:
+      type: string
+      label: ex1
+    ex2:
+      type: string
+      label: ex2
+    ex3:
+      type: string
+      label: ex3
+# Field widget.
+field.widget.settings.myone_namee:
+  type: mapping
+  label: Example widget settings
+  mapping:
+    foo:
+      type: string
+      label: Foo
+# Field formatter.
+field.formatter.settings.myone_namee_default:
+  type: mapping
+  label: Example formatter settings
+  mapping:
+    foo:
+      type: string
+      label: Foo

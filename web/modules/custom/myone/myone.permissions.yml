@@ -1,0 +1,14 @@
+administer myone types:
+  title: 'Administer myone types'
+  description: 'Maintain the types of myone entity.'
+  restrict access: true
+access myone overview:
+  title: 'Access myone overview page'
+delete myone:
+  title: Delete myone
+create myone:
+  title: Create myone
+view myone:
+  title: View myone
+edit myone:
+  title: Edit myone

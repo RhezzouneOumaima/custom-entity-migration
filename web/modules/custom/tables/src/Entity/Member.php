@@ -17,6 +17,10 @@ use Drupal\Core\Entity\EntityListBuilder;
  * @ContentEntityType(
  *   id = "member",
  *   label = @Translation("member"),
+ *   handlers = {
+ *   "view_builder" = "Drupal\Core\Entity\Member",
+ *   "list_builder" = "Drupal\tables\Entity\MemberListBuilder",
+ *   },
  *   base_table = "member",
  *   entity_keys = {
  *     "id" = "id",
@@ -72,24 +76,4 @@ class Member extends ContentEntityBase implements ContentEntityInterface {
     return $fields;
   }
 }
-class MemberEntityListBuilder extends EntityListBuilder {
 
-  /**
-   * {@inheritdoc}
-   */
-  public function buildHeader() {
-    $header['nom'] = $this->t('nom');
-    $header['prenom'] = $this->t('prenom');
-    return $header + parent::buildHeader();
-  }
-
-  /**
-   * {@inheritdoc}
-   */
-  public function buildRow(EntityInterface $entity) {
-    $row['nom'] = $entity->label();
-    $row['prenom'] = $entity->label();
-    return $row + parent::buildRow($entity);
-  }
-
-}

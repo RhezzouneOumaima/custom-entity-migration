@@ -1,4 +1,4 @@
-id,nom,prenom,role,decide
-1,rhezzoune,ouma,administrator,1
-2,alami,amin,testuser,0
-3,amarin,mouad,administrator,1
+title,id,nom,prenom,role,decide
+member1,1,rhezzoune,ouma,administrator,0
+member2,2,alami,amin,testuser,0
+member3,3,amarin,mouad,administrator,0
