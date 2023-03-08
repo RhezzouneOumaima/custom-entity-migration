@@ -1,0 +1,23 @@
+id: test19
+label: test19
+migration_tags:
+  - CSV migration
+migration_group: tables
+source:
+  plugin: csv
+  path: C:/xampp/htdocs/entities/web/sites/default/files/user_migrate.csv
+  delimiter: ','
+  enclosure: '"'
+  header_row_count: 1
+  ids:
+    - id
+destination:
+  plugin: entity:myone
+  default_bundle: member
+process:
+  title: title
+  field_idd: id
+  field_nom: nom
+  field_prenom: prenom
+  field_role: role
+  field_decide: decide
